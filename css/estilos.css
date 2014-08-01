@@ -103,15 +103,12 @@ header #logo{
 header #logo img{
     width: 52px;
     padding-right: 0.5em;
-    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 
 header #logo img:hover{
         
-    -webkit-transform: scale(1.2); 
-    -moz-transform: scale(1.2); 
-    -o-transform: scale(1.2); 
-    -ms-transform: scale(1.2); 
+    transform: scale(1.2); 
     
 }
 
@@ -166,7 +163,7 @@ nav ul li a{
     display: block;
     padding: 0.5em 0.8em;
     text-decoration: none;
-    -webkit-transition: .8s;
+    transition: .8s;
     }
 
 nav ul li a:hover{
@@ -279,7 +276,7 @@ footer{
     }
 
 
-@media screen and (min-width:1000px){
+@media screen and (min-width:1100px){
     
     #tigo{
         display: block;
